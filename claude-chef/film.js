@@ -257,7 +257,7 @@ function recipe(ctx, x, y, w, h, u, steps, ticks, size = 46) {
   label(ctx, 'สูตร', x + 40, y + 78, 56, DISPLAY, C.accent);
   ctx.fillStyle = '#D9D3C7'; ctx.fillRect(x + 40, y + 102, w - 80, 4);
   steps.forEach((s, i) => {
-    const ry = y + 180 + i * (h - 210) / steps.length, t = ticks ? prog(u, ticks[i], ticks[i] + 0.4) : 0;
+    const ry = y + 180 + i * Math.max(size * 1.4, (h - 210) / steps.length), t = ticks ? prog(u, ticks[i], ticks[i] + 0.4) : 0;
     const bs = size * 1.05;
     const pp = ticks ? 1 + 0.2 * wobble(u - ticks[i], 3, 6) : 1;
     ctx.save(); ctx.translate(x + 40 + bs / 2, ry - size * 0.35); ctx.scale(pp, pp);
