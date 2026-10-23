@@ -22,5 +22,5 @@ Sync: 27/34 hits within 20 ms of an onset, median 4.2 ms.
 Row type 88 px, end-card lines 140 px; both inside the safe area. No new issues at phone size.
 
 ## Open
-- VO is espeak-ng (offline, robotic). A neural Thai voice (edge-tts) needs speech.platform.bing.com allowed.
+- VO round 1 used espeak-ng: unintelligible Thai (user feedback). Replaced with Google translate TTS (audio/gtts.sh); lines 1 and 6 at 1.1x to fit their slots.
 - MCP scene holds one layout for ~7 s; dots and the late label carry it, a camera move would help.

@@ -6,6 +6,6 @@
 
 | โฟลเดอร์ | เนื้อหา | สถานะ |
 |---|---|---|
-| `claude-trio/` | Plugin vs Skill vs MCP, 40 วิ, 9:16, พากย์ไทย (espeak-ng) | เสร็จ (render ด้วย motion-reel) |
+| `claude-trio/` | Plugin vs Skill vs MCP, 40 วิ, 9:16, พากย์ไทย (Google TTS) | เสร็จ (render ด้วย motion-reel) |
 
 ไฟล์ render (`out/`, `*.mp4`, `node_modules/`) ไม่ commit ลง repo
